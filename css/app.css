@@ -155,7 +155,7 @@ html {
 }
 
 .logo-mm {
-    /* animation: MoveUpDown 4s ease-in-out infinite; */
+    animation: MoveUpDown 4s ease-in-out infinite;
 }
 
 .main {
