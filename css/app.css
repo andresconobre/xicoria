@@ -155,7 +155,7 @@ html {
 }
 
 .logo-mm {
-    animation: MoveUpDown 4s ease-in-out infinite;
+/*     animation: MoveUpDown 4s ease-in-out infinite; */
 }
 
 .main {
@@ -199,7 +199,7 @@ html {
     color: #FFF;
     font-size: 80px;
     text-transform: uppercase;
-    animation: pulse 3.5s ease-in-out infinite;
+/*     animation: pulse 3.5s ease-in-out infinite; */
     padding-left: 5rem;
 }
 
