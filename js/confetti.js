@@ -227,6 +227,19 @@ function esconderPrincipal() {
 
 function mostrarPrincipal(seg) {
 	// console.log('primeiro if');
+	// document.requestFullscreen()
+	var element = document.querySelector("html");
+
+	element.requestFullscreen()
+		.then(function () {
+			// element has entered fullscreen mode successfully
+		})
+		.catch(function (error) {
+			// element could not enter fullscreen mode
+			// error message
+			console.log(error.message);
+		});
+		
 	intro.style.animation = "opacidade-esconder 2s linear"
 	intro.style.opacity = "0"
 	main.style.animation = "opacidade-mostrar 2s linear"
