@@ -173,7 +173,7 @@ html {
     align-items: flex-start;
     justify-content: space-between;
     height: 100vh;
-    width: 60%;
+    width: 70%;
     position: relative;
     z-index: 9;
 }
@@ -200,7 +200,7 @@ html {
 
 .nome {
     color: #FFF;
-    font-size: 80px;
+    font-size: 90px;
     text-transform: uppercase;
     animation: pulse 3.5s ease-in-out infinite;
     padding-left: 4rem;
