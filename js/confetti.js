@@ -229,7 +229,12 @@ function mostrarPrincipal(seg) {
 	// console.log('primeiro if');
 	// document.requestFullscreen()
 	var element = document.querySelector("html");
-
+	intro.style.animation = "opacidade-esconder 2s linear"
+	intro.style.opacity = "0"
+	main.style.animation = "opacidade-mostrar 2s linear"
+	main.style.opacity = "1"
+	confetti.start(seg * 1000);
+	setTimeout(esconderPrincipal, seg * 1000);
 	element.requestFullscreen()
 		.then(function () {
 			// element has entered fullscreen mode successfully
@@ -239,11 +244,4 @@ function mostrarPrincipal(seg) {
 			// error message
 			console.log(error.message);
 		});
-		
-	intro.style.animation = "opacidade-esconder 2s linear"
-	intro.style.opacity = "0"
-	main.style.animation = "opacidade-mostrar 2s linear"
-	main.style.opacity = "1"
-	confetti.start(seg * 1000);
-	setTimeout(esconderPrincipal, seg * 1000);
 }
