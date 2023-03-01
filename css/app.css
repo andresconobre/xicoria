@@ -203,7 +203,7 @@ html {
     font-size: 80px;
     text-transform: uppercase;
     animation: pulse 3.5s ease-in-out infinite;
-    padding-left: 5rem;
+    padding-left: 4rem;
 }
 
 @keyframes pulse {
@@ -212,7 +212,7 @@ html {
     }
 
     50% {
-        transform: scale(1.3, 1.3);
+        transform: scale(1.15, 1.15);
     }
 
     100% {
